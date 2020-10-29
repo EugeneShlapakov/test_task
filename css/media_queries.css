@@ -260,6 +260,7 @@
         grid-column-gap: 30px;
         grid-row-gap: 30px;
         justify-items: center;
+
     }
 
     .activity_name {
@@ -273,6 +274,11 @@
         margin: 35px 5px 3px 45px;
         width: 60px;
         height: 60px;
+        position: absolute;
+right: 0;
+    }
+    .single_activity_card{
+        position: relative;
     }
     .activity_img img{
         width: 100%;
@@ -297,7 +303,7 @@
     }
 
     .slider_last_container {
-        width: 910px;
+        width: 90%;
         margin: auto;
     }
     .dir_slider img{
@@ -612,6 +618,7 @@
     }
     .single_activity_card{
         height: 100%;
+        position: relative;
     }
 
     .activity_name {
@@ -622,7 +629,11 @@
         margin-bottom: 15px;
     }
     .activity_img {
-        margin: 35px 5px 3px 45px;
+        /*margin: 35px 5px 3px 45px;*/
+        margin: 0;
+        position: absolute;
+        top: 30px;
+        right: 15px;
         width: 60px;
         height: 60px;
     }
@@ -649,8 +660,16 @@
     }
 
     .slider_last_container {
-        width: 710px;
+        width: 90%;
         margin: auto;
+    }
+
+    .next_last {
+        margin-right: -30px;
+    }
+
+    .prev_last {
+        margin-left: -30px;
     }
     .dir_slider img{
         width: 100%;
@@ -1100,6 +1119,7 @@
     }
     .single_activity_card{
         height: 100%;
+        position: relative;
     }
 
     .activity_name {
@@ -1110,7 +1130,11 @@
         margin-bottom: 15px;
     }
     .activity_img {
-        margin: 35px 5px 3px 45px;
+        /*margin: 35px 5px 3px 45px;*/
+        margin: auto;
+        position: absolute;
+        right: 15px;
+        top: 30px;
         width: 60px;
         height: 60px;
     }
@@ -1137,8 +1161,14 @@
     }
 
     .slider_last_container {
-        width: 510px;
+        width: 90%;
         margin: auto;
+    }
+    .next_last{
+        margin-right: -30px;
+    }
+    .prev_last{
+        margin-left: -30px;
     }
     .dir_slider img{
         width: 100%;
@@ -1662,6 +1692,7 @@
     }
     .single_activity_card{
         height: 100%;
+        position: relative;
     }
 
     .activity_name {
@@ -1672,7 +1703,11 @@
         margin-bottom: 15px;
     }
     .activity_img {
-        margin: 10px 5px 3px 30%;
+        /*margin: 10px 5px 3px 30%;*/
+        margin: auto;
+        position: absolute;
+        top: 20px;
+        right: 15px;
         width: 80px;
         height: 80px;
     }
@@ -1713,7 +1748,7 @@
     }
 
     .slider_last_container {
-        width: 370px;
+        width: 88%;
         margin: auto;
     }
 
@@ -2201,7 +2236,7 @@
 
     .slide_info {
         height: 200px;
-        top: 22px;
+        top: 52px;
         width: 300px;
         margin-left: 30px;
     }
@@ -2227,14 +2262,14 @@
     }
 
     .prev {
-        left: 0;
-        top: -70px;
+        left: 5px;
+        top: -90px;
     }
 
     .next {
         left: auto;
-        right: 0;
-        top: -70px;
+        right: 5px;
+        top: -90px;
     }
     .advantages {
         display: grid;
@@ -2293,6 +2328,7 @@
     }
     .single_activity_card{
         height: 100%;
+        position: relative;
     }
 
     .activity_name {
@@ -2303,9 +2339,14 @@
         margin-bottom: 15px;
     }
     .activity_img {
-        margin: 10px 5px 3px 15px;
+        /*margin: 10px 5px 3px 15px;*/
+        margin: auto;
         width: 60px;
         height: 60px;
+        align-self: flex-end;
+        position: absolute;
+        right: 15px;
+        top: 30px;
     }
     .activity_img img{
         width: 100%;
@@ -2344,7 +2385,7 @@
     }
 
     .slider_last_container {
-        width: 260px;
+        width: 88%;
         margin: auto;
     }
 
@@ -2579,7 +2620,7 @@
         margin-left: 15px;
         margin-right: 15px;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 300px);
+        grid-template-rows: repeat(4, 220px);
         grid-row-gap: 30px;
     }
     .single_plus{
@@ -2589,7 +2630,7 @@
         padding: 10px 5px 10px 5px;
     }
     .plus_content img{
-        width: 150px;
+        width: 180px;
     }
     .pluses_text{
         width: 97%;

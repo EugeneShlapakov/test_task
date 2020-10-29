@@ -235,6 +235,9 @@ h5 {
 .slides img{
 	width: 100%;
 }
+.slides picture{
+	width: 100%;
+}
 .number_mts{
 
 	position: absolute;
