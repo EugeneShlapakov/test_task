@@ -249,6 +249,9 @@
     .escort_text {
         padding: 30px 40px 40px 50px;
     }
+    .escort_text h2{
+        margin-left: 0;
+    }
 
     .activity_cards {
         margin-top: 35px;
@@ -603,6 +606,9 @@ right: 0;
     .escort_text {
 
         padding: 30px 40px 0 50px;
+    }
+    .escort_text h2{
+        margin-left: 0;
     }
 
     .activity_cards {
@@ -1104,6 +1110,9 @@ right: 0;
     .escort_text {
         font-size: 14px;
         padding: 30px 40px 0 50px;
+    }
+    .escort_text h2{
+        margin-left: 0;
     }
 
     .activity_cards {
