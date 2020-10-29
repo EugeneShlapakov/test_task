@@ -1980,13 +1980,13 @@
 
     .column_one {
         height: auto;
-        width:100%;
+        width:92%;
         margin-top: 49px;
         margin-left: 15px;
     }
 
     .column_two {
-        width: 100%;
+        width: 92%;
         height: auto;
         flex-direction: column;
 
@@ -2000,12 +2000,12 @@
     }
 
     .column_two_one, .column_two_two, .column_two_three {
-        width: 100%;
+        width: 92%;
 
     }
 
     .column_three {
-        width: 100%;
+        width: 92%;
         height: auto;
 
     }
