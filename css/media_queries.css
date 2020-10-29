@@ -2444,6 +2444,9 @@
         /* Additional */
         height: 140px;
     }
+    .first_service h5, .second_service h5 {
+        font-size: 20px;
+    }
 
     h4 {
         font-family: Commissioner;
