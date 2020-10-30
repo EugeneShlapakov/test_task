@@ -2375,7 +2375,7 @@ right: 0;
     }
 
     .activity_btn {
-        width: 140px;
+        width: 180px;
         height: 35px;
         margin-top: 40px;
         margin-left: 15px;
@@ -2425,7 +2425,7 @@ right: 0;
         margin: 15px auto auto 10px;
     }
     .review_btn{
-        width: 140px;
+        width: 180px;
         height: 35px;
         margin-left: 15px;
         margin-top: 80px;
@@ -2449,7 +2449,7 @@ right: 0;
     }
     .client_btn{
         margin-left: 0;
-        width: 140px;
+        width: 180px;
         height: 35px;
         margin-top: 10px;
     }
@@ -2484,6 +2484,9 @@ right: 0;
         width: 100%;
         /* Additional */
         height: 140px;
+    }
+    .first_service h5, .second_service h5 {
+        font-size: 20px;
     }
 
     h4 {
@@ -2588,7 +2591,7 @@ right: 0;
     }
     .service_btn{
         margin-left: 0;
-        width: 140px;
+        width: 180px;
         height: 35px;
         margin-top: 15px;
         text-align: center;
