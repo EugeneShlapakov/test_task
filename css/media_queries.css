@@ -1,6 +1,23 @@
+@media screen and (min-width: 1536px) and (max-width: 1600px) {
+    .prev {
+        top: -121px;;
+    }
+
+    .next {
+        top: -121px;
+    }
+}
 @media screen and (min-width: 1450px) and (max-width: 1536px) {
     .slide_btn{
         margin-top: 25px;
+    }
+
+    .prev {
+        top: -121px;;
+    }
+
+    .next {
+        top: -121px;
     }
 }
 @media screen and (min-width: 1200px) and (max-width: 1450px) {
@@ -11,6 +28,7 @@
     .nav{
         width: 650px;
     }
+
 
 
     .middle_navitem {
@@ -1055,12 +1073,19 @@ right: 0;
     }
 
     .slide_btn {
-        width: 120px;
+        width: 180px;
         height: 25px;
         margin-top: 10px;
     }
+    .activity_btn {
+        width: 180px;
+    }
     .slide_btn a {
         font-size: 11px;
+    }
+
+    .review_btn {
+        width: 180px;
     }
 
     .prev {
@@ -1160,7 +1185,7 @@ right: 0;
     }
 
     .activity_btn {
-        width: 140px;
+        width: 180px;
         height: 35px;
         margin-top: 40px;
         margin-left: 15px;
@@ -1195,7 +1220,7 @@ right: 0;
         grid-row-gap: 30px;
     }
     .review_btn{
-        width: 140px;
+        width: 180px;
         height: 35px;
         margin-left: 15px;
     }
@@ -1209,7 +1234,7 @@ right: 0;
         width: 350px;
     }
     .client_btn{
-        width: 140px;
+        width: 180px;
         height: 35px;
     }
     .client_btn a{
@@ -1289,7 +1314,7 @@ right: 0;
     }
     .service_btn{
         margin-left: 0;
-        width: 140px;
+        width: 180px;
         height: 35px;
         margin-top: 15px;
         text-align: center;
